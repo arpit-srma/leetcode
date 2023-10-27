@@ -20,7 +20,7 @@ public:
 
         int value = 0 ;
         while(i<s.size()){
-            if(s[i]<'0' or s[i]>'9'){
+            if(s[i]<'0' || s[i]>'9'){
                 break;
             }
             if(sign==-1){
